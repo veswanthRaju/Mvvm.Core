@@ -10,7 +10,7 @@ namespace Mvvm.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-
+            //This will startup the application (By loading particular view model)
             RegisterAppStart<ViewModels.FirstViewModel>();
         }
     }

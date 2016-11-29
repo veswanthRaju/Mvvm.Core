@@ -6,9 +6,9 @@ namespace Mvvm.Droid
 {
     [Activity(
         Label = "Mvvm.Droid"
-        , MainLauncher = true
-        , Icon = "@mipmap/icon"
-        , Theme = "@style/Theme.Splash"
+        , MainLauncher = true //Because of this application will start with this Splash Screen
+        , Icon = "@drawable/icon"
+        , Theme = "@style/Theme.Splash" //with this theme
         , NoHistory = true
         , ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashScreen : MvxSplashScreenActivity

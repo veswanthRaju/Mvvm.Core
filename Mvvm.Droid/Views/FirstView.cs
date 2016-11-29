@@ -1,11 +1,19 @@
 using Android.App;
 using Android.OS;
 using MvvmCross.Droid.Views;
+using MvvmCross.Core.ViewModels;
 
 namespace Mvvm.Droid.Views
 {
+    /// <summary>
+    ///Recognise its ViewModel by its name only
+    /// Eg: FisrtView For FirstViewModel
+    /// If Name is different then we can use this arttribute
+    /// [MvxViewFor(typeof(FirstViewModel))]
+    /// </summary>
     [Activity(Label = "View for FirstViewModel")]
-    public class FirstView : MvxActivity
+    //[MvxViewFor(typeof(FirstViewModel))]
+    public class FirstViewTest : MvxActivity
     {
         protected override void OnCreate(Bundle bundle)
         {
