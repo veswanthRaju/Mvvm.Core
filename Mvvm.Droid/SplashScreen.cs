@@ -14,7 +14,7 @@ namespace Mvvm.Droid
     public class SplashScreen : MvxSplashScreenActivity
     {
         public SplashScreen()
-            : base(Resource.Layout.SplashScreen)
+            : base(Resource.Layout.SplashScreen) // To display the Splash screen Activity (Loading..)
         {
         }
     }
