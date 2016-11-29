@@ -13,7 +13,7 @@ namespace Mvvm.Droid.Views
     /// </summary>
     [Activity(Label = "View for FirstViewModel")]
     //[MvxViewFor(typeof(FirstViewModel))]
-    public class FirstViewTest : MvxActivity
+    public class FirstView : MvxActivity
     {
         protected override void OnCreate(Bundle bundle)
         {
